@@ -1,0 +1,30 @@
+@import '../../../../styles/shared';
+
+.ReactModal__Overlay {
+  background-color: rgba(67, 67, 67, 0.7) !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    padding: 0 !important;
+    height: auto !important;
+    border: none !important;
+    width: auto !important;
+    position: static !important;
+  }
+}
+
+.knock-out-modal {
+  background-color: rgba(14, 14, 14, 0.9);
+  width: 250px;
+  height: 100%;
+  padding: $gap-16;
+  color: $font-light;
+
+  &__title {
+    max-width: 100%;
+    margin: 0 0 $gap-8 0;
+    font-size: $font-18;
+  }
+}
