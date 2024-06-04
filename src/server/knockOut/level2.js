@@ -35,17 +35,17 @@ const questionsLevel2 = [
     optionB: 'No'
   },
   {
-    question: 'Cuernos o no cuernos: arrimar a la casa a alguien que conoce poco',
+    question: 'Cuernos o no cuernos: ofrecerse a llevar a alguien a su casa que apenas conoce',
     optionA: 'Si',
     optionB: 'No'
   },
   {
-    question: 'test',
+    question: 'Qué prefieres...',
     optionA: 'Besar a alguien del sexo que no te atrae',
     optionB: 'Dar el chiquito a alguien del sexo que te gusta'
   },
   {
-    question: 'Como prefieres trabajar',
+    question: 'Cómo prefieres trabajar',
     optionA: 'Esclavizante pero muy bien pago',
     optionB: 'Pago normal pero con flexibilidad'
   },
@@ -75,7 +75,7 @@ const questionsLevel2 = [
     optionB: '10 años menor'
   },
   {
-    question: 'Hacer',
+    question: 'Qué prefieres...',
     optionA: 'Volver con tu ex toda la vida',
     optionB: 'Quedarte soltero'
   },
@@ -108,6 +108,36 @@ const questionsLevel2 = [
     question: 'Que priorizas',
     optionA: 'Pareja',
     optionB: 'Amigos'
+  },
+  {
+    question: 'Rumores',
+    optionA: 'Tener sexo con tu jefe sin que nadie se entere',
+    optionB: 'No tenerlo pero que todos crean que si'
+  },
+  {
+    question: 'Tendrías una relación abierta',
+    optionA: 'Si',
+    optionB: 'No'
+  },
+  {
+    question: 'Tener sexo',
+    optionA: 'Con codón',
+    optionB: 'Sin condón'
+  },
+  {
+    question: 'Aborto',
+    optionA: 'A favor',
+    optionB: 'En contra'
+  },
+  {
+    question: 'Perdonarías infidelidad',
+    optionA: 'Si',
+    optionB: 'No'
+  },
+  {
+    question: 'Dónde te sentarías',
+    optionA: 'Sentarse en un falo y comer torta',
+    optionB: 'Sentarse en una torta y comer falo'
   },
 ];
 

@@ -70,7 +70,7 @@ const questionsLevel1 = [
     optionB: 'Mentir sin que se den cuenta'
   },
   {
-    question: 'Que sabor prefieres',
+    question: 'Qué sabor prefieres',
     optionA: 'Dulce',
     optionB: 'Salado'
   },
@@ -125,7 +125,7 @@ const questionsLevel1 = [
     optionB: 'No envejecer esteticamente desde los 40'
   },
   {
-    question: 'Comida rapida',
+    question: 'Comida rápida',
     optionA: 'Pizza',
     optionB: 'Hamburguesa'
   },
@@ -133,6 +133,36 @@ const questionsLevel1 = [
     question: 'Dulces',
     optionA: 'Chocolate',
     optionB: 'Gomitas'
+  },
+  {
+    question: 'Pena de muerte',
+    optionA: 'A favor',
+    optionB: 'En contra'
+  },
+  {
+    question: 'Qué prefieres...',
+    optionA: 'Ser hijo unico',
+    optionB: 'Tener hermanos'
+  },
+  {
+    question: 'Tener hijos',
+    optionA: 'Si',
+    optionB: 'No'
+  },
+  {
+    question: 'Al hacer de comer',
+    optionA: 'Lavar los platos',
+    optionB: 'Cocinar'
+  },
+  {
+    question: 'Si te dieran plata',
+    optionA: 'tener 100 millones',
+    optionB: 'Hacer cara y sello por 1.000 millones'
+  },
+  {
+    question: 'Jornada laboral de',
+    optionA: '5 horas al dia',
+    optionB: '4 dias a la semana'
   },
 ];
 

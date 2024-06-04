@@ -10,14 +10,9 @@ const questionsLevel3 = [
     optionB: 'Tu a ellos'
   },
   {
-    question: 'Que prefieres',
+    question: 'Qué prefieres...',
     optionA: 'Ser virgen hasta los 40 y despues tener excelente sexo',
     optionB: 'Empezar antes pero siempre teniendo sexo mediocre'
-  },
-  {
-    question: 'Rumores',
-    optionA: 'Tener sexo con tu jefe sin que nadie se entere',
-    optionB: 'No tenerlo pero que todos crean que si'
   },
   {
     question: 'Prefieres ser',
@@ -26,11 +21,11 @@ const questionsLevel3 = [
   },
   {
     question: 'Meet incomoda',
-    optionA: 'Que se te prenda la camara y estes desnudo',
-    optionB: 'Que se te prenda el microfono teniendo sexo'
+    optionA: 'Que se te prenda la cámara y estes desnudo',
+    optionB: 'Que se te prenda el micrófono teniendo sexo'
   },
   {
-    question: 'Qué prefieres',
+    question: 'Qué prefieres...',
     optionA: 'Tener sexo casual pero bueno',
     optionB: 'Tener sexo si hay vinculo pero flojo'
   },
@@ -45,12 +40,12 @@ const questionsLevel3 = [
     optionB: 'Cachetada'
   },
   {
-    question: 'Sexo en un lugar incomodo',
+    question: 'Sexo en un lugar incómodo',
     optionA: 'Baño',
     optionB: 'Piso'
   },
   {
-    question: 'Un trio con',
+    question: 'Un trío con',
     optionA: 'Dos hombres, una mujer',
     optionB: 'Dos mujeres, un hombre'
   },
@@ -60,12 +55,12 @@ const questionsLevel3 = [
     optionB: 'Recibirlo'
   },
   {
-    question: 'Prefieres',
+    question: 'Qué prefieres...',
     optionA: 'Acostarse con tu ex para salvar a tu pareja',
     optionB: 'Dejar morir a tu pareja y no acostarte con tu ex'
   },
   {
-    question: 'Prefieres',
+    question: 'Qué prefieres',
     optionA: 'Sexo oral',
     optionB: 'Coito'
   },
@@ -75,14 +70,19 @@ const questionsLevel3 = [
     optionB: 'Mujer fea'
   },
   {
-    question: 'Participar en una orgia',
+    question: 'Participar en una orgía',
     optionA: 'Si',
     optionB: 'No'
   },
   {
-    question: 'Meter algo por detras',
+    question: 'Meter algo por detrás',
     optionA: 'Tu a tu abuela',
     optionB: 'Tu abuela a ti'
+  },
+  {
+    question: 'Qué prefieres...',
+    optionA: 'Acostarse con alguno de los presentes',
+    optionB: 'Acostarse con un desconocido'
   },
 ];
 
