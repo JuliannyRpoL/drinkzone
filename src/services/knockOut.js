@@ -1,22 +1,5 @@
 import Questions from '../server/knockOut/questions';
-
-const randomizeQuestions = (questions) => {
-  let currentIndex = questions.length;
-  let randomIndex, tempValue;
-
-  while (currentIndex !== 0) {
-
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // Intercambia el elemento seleccionado con el último elemento sin procesar
-    tempValue = questions[currentIndex];
-    questions[currentIndex] = questions[randomIndex];
-    questions[randomIndex] = tempValue;
-  }
-
-  return questions;
-}
+import { randomizeArray } from '../utils/formatData'
 
 export const getQuestions = (levels) => {
   let questions = []
@@ -34,5 +17,5 @@ export const getQuestions = (levels) => {
     questions = questions.concat(Questions.hard)
   }
 
-  return randomizeQuestions(questions);
+  return randomizeArray(questions);
 };

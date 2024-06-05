@@ -1,5 +1,6 @@
 import Home from "../pages/home";
 import KnockOut from "../pages/knockOut";
+import Hipodromo from "../pages/hipodromo";
 import Games from "../pages/games";
 
 const routes = [
@@ -9,14 +10,14 @@ const routes = [
       page: Home,
     },
     {
-      path: "/games",
-      exact: true,
-      page: Games,
-    },
-    {
       path: "/games/knock-out",
       exact: true,
       page: KnockOut,
+    },
+    {
+      path: "/games/hipodromo",
+      exact: true,
+      page: Hipodromo,
     },
     {
       path: "*",

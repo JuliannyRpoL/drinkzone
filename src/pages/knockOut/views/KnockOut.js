@@ -17,8 +17,6 @@ const KnockOut = () => {
   const [ levels, setLevels ] = useState(['1']);
   const [ questions, setQuestions] = useState([]);
 
-  console.log(questions);
-
   let question = questions[index];
 
   const nextQuestion = () => {
