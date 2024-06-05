@@ -7,9 +7,10 @@ import TextField from '@mui/material/TextField';
 import Button from '../../../../components/button/button';
 
 import "./styles.scss";
+import { randomizePlayers } from '../../utils/formatData';
 
 const ConfigModal = (props) => {
-  const { players, setPlayers, setModalIsOpen } = props
+  const { players, setPlayers, setModalIsOpen, setCurrentPlayers } = props
   const valueRef = useRef('')
 
   const handleOnClick = () => {
@@ -17,6 +18,7 @@ const ConfigModal = (props) => {
 
     localStorage.setItem("players", newPlayers);
     setPlayers(newPlayers);
+    setCurrentPlayers(randomizePlayers(newPlayers));
     setModalIsOpen(false);
   }
 

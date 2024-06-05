@@ -88,7 +88,7 @@ const Hipodromo = () => {
             contentLabel="Example Modal"
             ariaHideApp={false}
           >
-            <ConfigModal setPlayers={setPlayers} players={players} setModalIsOpen={setModalIsOpen}/>
+            <ConfigModal setPlayers={setPlayers} players={players} setModalIsOpen={setModalIsOpen} setCurrentPlayers={setCurrentPlayers}/>
           </Modal>
       </section>
     )
