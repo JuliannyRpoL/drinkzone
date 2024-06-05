@@ -35,4 +35,14 @@
       color: white;
     }
   }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      height: 40px;
+      width: 48%;
+    }
+  }
 }

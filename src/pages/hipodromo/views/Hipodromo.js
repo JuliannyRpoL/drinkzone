@@ -37,12 +37,13 @@ const Hipodromo = () => {
 
   useEffect(() => {
     const players = localStorage.getItem("players");
+    const formatPlayers = players?.split(',')
 
-    if(!players) {
+    setPlayers(formatPlayers);
+
+    if(!players || formatPlayers.length <= 3) {
       setModalIsOpen(true);
     } else {
-      const formatPlayers = players.split(',')
-      setPlayers(formatPlayers);
       setCurrentPlayers(randomizePlayers(formatPlayers))
     }
 

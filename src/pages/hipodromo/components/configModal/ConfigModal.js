@@ -12,13 +12,20 @@ import { randomizePlayers } from '../../utils/formatData';
 const ConfigModal = (props) => {
   const { players, setPlayers, setModalIsOpen, setCurrentPlayers } = props
   const valueRef = useRef('')
-
+  
   const handleOnClick = () => {
     const newPlayers = valueRef.current.value.replaceAll(' ', '').split(',');
 
     localStorage.setItem("players", newPlayers);
     setPlayers(newPlayers);
     setCurrentPlayers(randomizePlayers(newPlayers));
+    setModalIsOpen(false);
+  }
+
+  const handleReset = () => {
+    localStorage.removeItem("players");
+    setPlayers([]);
+    setCurrentPlayers({});
     setModalIsOpen(false);
   }
 
@@ -32,9 +39,17 @@ const ConfigModal = (props) => {
         <TextField id="outlined-basic" label="" defaultValue={players} variant="outlined" color='secondary' inputRef={valueRef} />
       </FormGroup>
 
-      <Button
-        type='primary' onClick={handleOnClick} title='Play'>
-      </Button>
+      <div className='hipodromo-modal__buttons'>
+        <Button
+          className='hipodromo-modal__buttons__player'
+          type='primary' onClick={handleOnClick} title='Play'>
+        </Button>
+
+        <Button
+          className='hipodromo-modal__buttons__reset'
+          type='secondary' onClick={handleReset} title='Reset'>
+        </Button>
+      </div>
     </div>
   )
 }
